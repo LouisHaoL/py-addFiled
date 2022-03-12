@@ -1,0 +1,20 @@
+    /**
+     * 功能描述:
+     * 获得字段名
+     *
+     * @return 字段名 : String
+     */
+    public String getFieldName() {
+        return this.fieldName;
+    }
+
+    /**
+     * 功能描述:
+     * 设置字段名
+     *
+     * @param fieldName : String
+     */
+    public void setFieldName(String fieldName) {
+        this.fieldName = fieldName;
+    }
+

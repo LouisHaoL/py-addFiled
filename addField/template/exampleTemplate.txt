@@ -1,0 +1,150 @@
+
+        /**
+         * FIELD_NAME is null
+         *
+         * @return
+         */
+        public Criteria andFieldNameIsNull() {
+            addCriterion("FIELD_NAME", false, Operation.ISNULL, new Object[]{});
+            return (Criteria) this;
+        }
+
+        /**
+         * FIELD_NAME is not null
+         *
+         * @return
+         */
+        public Criteria andFieldNameIsNotNull() {
+            addCriterion("FIELD_NAME", false, Operation.ISNOTNULL, new Object[]{});
+            return (Criteria) this;
+        }
+
+        /**
+         * FIELD_NAME =
+         *
+         * @return
+         */
+        public Criteria andFieldNameEqualTo(String value) {
+            addCriterion("FIELD_NAME", false, Operation.EQ, new Object[]{value});
+            return (Criteria) this;
+        }
+
+        /**
+         * FIELD_NAME <>
+         *
+         * @return
+         */
+        public Criteria andFieldNameNotEqualTo(String value) {
+            addCriterion("FIELD_NAME", false, Operation.NOTEQ, new Object[]{value});
+            return (Criteria) this;
+        }
+
+        /**
+         * FIELD_NAME >
+         *
+         * @return
+         */
+        public Criteria andFieldNameGreaterThan(String value) {
+            addCriterion("FIELD_NAME", false, Operation.GT, new Object[]{value});
+            return (Criteria) this;
+        }
+
+        /**
+         * FIELD_NAME >=
+         *
+         * @return
+         */
+        public Criteria andFieldNameGreaterThanOrEqualTo(String value) {
+            addCriterion("FIELD_NAME", false, Operation.GE, new Object[]{value});
+            return (Criteria) this;
+        }
+
+        /**
+         * FIELD_NAME <
+         *
+         * @return
+         */
+        public Criteria andFieldNameLessThan(String value) {
+            addCriterion("FIELD_NAME", false, Operation.LT, new Object[]{value});
+            return (Criteria) this;
+        }
+
+        /**
+         * FIELD_NAME <=
+         *
+         * @return
+         */
+        public Criteria andFieldNameLessThanOrEqualTo(String value) {
+            addCriterion("FIELD_NAME", false, Operation.LE, new Object[]{value});
+            return (Criteria) this;
+        }
+
+        /**
+         * FIELD_NAME like
+         *
+         * @return
+         */
+        public Criteria andFieldNameLike(String value) {
+            addCriterion("FIELD_NAME", false, Operation.LIKE, new Object[]{value});
+            return (Criteria) this;
+        }
+
+        /**
+         * FIELD_NAME not like
+         *
+         * @return
+         */
+        public Criteria andFieldNameNotLike(String value) {
+            addCriterion("FIELD_NAME", false, Operation.NOTLIKE, new Object[]{value});
+            return (Criteria) this;
+        }
+
+        /**
+         * FIELD_NAME in
+         *
+         * @return
+         */
+        public Criteria andFieldNameIn(List<String> values) {
+            addCriterion("FIELD_NAME", false, Operation.IN, values);
+            return (Criteria) this;
+        }
+
+        /**
+         * FIELD_NAME not in
+         *
+         * @return
+         */
+        public Criteria andFieldNameNotIn(List<String> values) {
+            addCriterion("FIELD_NAME", false, Operation.NOTIN, values);
+            return (Criteria) this;
+        }
+
+        /**
+         * FIELD_NAME between
+         *
+         * @return
+         */
+        public Criteria andFieldNameBetween(String value1, String value2) {
+            addCriterion("FIELD_NAME", false, Operation.BETWEEN, value1, value2);
+            return (Criteria) this;
+        }
+
+        /**
+         * FIELD_NAME not between
+         *
+         * @return
+         */
+        public Criteria andFieldNameNotBetween(String value1, String value2) {
+            addCriterion("FIELD_NAME", false, Operation.NOTBETWEEN, value1, value2);
+            return (Criteria) this;
+        }
+
+        /**
+         * upper(FIELD_NAME) like  '%value.toUpperCase()%'
+         *
+         * @return
+         */
+        public Criteria andFieldNameLikeInsensitive(String value) {
+            addCriterion("FIELD_NAME", false, Operation.LIKEIC, new Object[]{value});
+            return (Criteria) this;
+        }

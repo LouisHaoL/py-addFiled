@@ -1,0 +1,3 @@
+            <if test="fieldName != null">
+                FIELD_NAME,
+            </if>

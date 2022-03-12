@@ -1,0 +1,3 @@
+            <if test="record.fieldName != null">
+                FIELD_NAME = #{record.fieldName,jdbcType=VARCHAR},
+            </if>

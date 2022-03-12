@@ -1,0 +1,1 @@
+        <result column="FIELD_NAME" property="fieldName" jdbcType="VARCHAR"/>

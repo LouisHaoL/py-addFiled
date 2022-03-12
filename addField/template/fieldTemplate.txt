@@ -1,0 +1,5 @@
+    /** 字段名 */
+    @Column(name = "FIELD_NAME", nullable = true, length = 50)
+    @RichLength(max = 50, min = 0, groups = {ModelName.Default.class})
+    private String fieldName;
+
